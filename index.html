@@ -10,49 +10,87 @@
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lily+Script+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lily+Script+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-<!-- Navbar Section -->
-<nav class="navbar navbar-expand-lg bg-body-tertiary Lat">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img src="./assets/sakura-logo-svg.svg" alt=""></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav lato-regular">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">HOME</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">SPECIALS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">PRODUCTS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">ABOUT</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link " >CONTACT</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-<!-- Hero Image Section -->
+    <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/sakura-logo-svg.svg" alt="Sakura Logo" height="60">
+            </a>
 
-<!-- Daily Specials Section -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-<!-- Products Section -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SPECIALS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PRODUCTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-<!-- About Us Section -->
+    <!-- Hero Image Section -->
+    <section class="container-fluid p-0">
+        <img src="./assets/Hero Image.png" alt="StoreFront Image"  class="img-fluid w-100 cover">
+        
+    </section>
 
-<!-- Connect With Us Section -->
+    <!-- Daily Specials Section -->
+<h1 class="lily-script-one-regular display d-flex justify-content-center"><u>Daily Specials</u></h1>
+<div class="specials-box">
+            
+            <div class="row justify-content-center mb-5">
+                <div class="col-md-6 text-center">
+                    <img src="./assets/menu-item-13.jpg" alt="Beef Bowl" class="special-img">
+                    <p class="food-title">Today's Special : Beef Bowl</p>
+                </div>
+            </div>
 
-<!-- Footer Section -->
+            <div class="row g-4">
+                <div class="col-md-4 text-center">
+                    <img src="./assets/menu-item-6.jpg" alt="Onigiri Rice Balls" class="special-img">
+                    <p class="food-title">Onigiri Rice Balls</p>
+                </div>
+
+                <div class="col-md-4 text-center">
+                    <img src="./assets/menu-item-1.jpg" alt="Sushi Rolls"  class="special-img">
+                    <p class="food-title">Sushi Rolls</p>
+                </div>
+
+                <div class="col-md-4 text-center">
+                    <img src="./assets/menu-item-5.jpg" alt="Inari Plate" class="special-img">
+                    <p class="food-title">Inari Plate</p>
+                </div>
+            </div>
+            
+        </div>
+    <!-- Products Section -->
+
+    <!-- About Us Section -->
+
+    <!-- Connect With Us Section -->
+
+    <!-- Footer Section -->
 
     <script src="./scripts/app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
