@@ -13,44 +13,161 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lily+Script+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-        <link rel="shortcut icon" href="./assets/sakura-grocery-icon.png" type="image/x-icon" style="width: 50px; height: 50px;">
 </head>
 
 <body>
-    <!-- Navbar Section -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-white">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#">
+                <img src="./assets/sakura-logo-svg.svg" alt="Sakura Logo" height="60">
+            </a>
+
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav ms-auto align-items-center">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link" href="#">SPECIALS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link" href="#">PRODUCTS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        <a class="nav-link" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+
     <!-- Hero Image Section -->
+    <section class="container-fluid p-0">
+        <img src="./assets/Hero Image.png" alt="StoreFront Image"  class="img-fluid w-100 cover">
+        
+    </section>
 
     <!-- Daily Specials Section -->
+<h1 class="lily-script-one-regular display d-flex justify-content-center">Daily Specials</h1>
+<div class="specials-box">
+            
+            <div class="row justify-content-center mb-5">
+                <div class="col-md-6 text-center">
+                    <img src="./assets/menu-item-13.jpg" alt="Beef Bowl" class="special-img">
+                    <p class="food-title">Today's Special : Beef Bowl</p>
+                </div>
+            </div>
 
+            <div class="row g-4">
+                <div class="col-md-4 text-center">
+                    <img src="./assets/menu-item-6.jpg" alt="Onigiri Rice Balls" class="special-img">
+                    <p class="food-title">Onigiri Rice Balls</p>
+                </div>
+
+                <div class="col-md-4 text-center">
+                    <img src="./assets/menu-item-1.jpg" alt="Sushi Rolls"  class="special-img">
+                    <p class="food-title">Sushi Rolls</p>
+                </div>
+
+                <div class="col-md-4 text-center">
+                    <img src="./assets/menu-item-5.jpg" alt="Inari Plate" class="special-img">
+                    <p class="food-title">Inari Plate</p>
+                </div>
+            </div>
+            
+        </div>
     <!-- Products Section -->
+<section class="container Products-section">
 
+    <h1 class="lily-script-one-regular text-center mb-5" >Products</h1>
+    <div class="row g-4 mb-5">
+        <div class="col-md-6">
+            <div class="product-card"><h3 class="product-card-title">Japanese Sake, Liquor, and Beer</h3>
+                <img src="./assets/products-Japanese sake, liquor, and beer.jpg" alt="Japanese Alcohol" class="product-card-img">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="product-card"><h3 class="product-card-title">Japanese Hair & Beauty Products</h3>
+                <img src="./assets/products-Japanese hair and beauty products.jpg" alt="Japanese Hair & Beauty products" class="product-card-img">
+            </div>
+        </div>
+    </div>
+    <h2 class="section-header">Fresh & Pantry</h2>
+    <div class="row g-4">
+
+        <div class="col-md-4">
+            <div class="product-card">
+                <div class="product-card-title">Instant Noodles</div>
+                <img src="./assets/products-instant noodles.jpg" alt="Instant Noodles" class="product-card-img">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="product-card">
+                <div class="product-card-title">Varieties of Rice</div>
+                <img src="./assets/products-short and medium grain Japanese rice.jpg" alt="Rice" class="product-card-img">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="product-card">
+                <div class="product-card-title">Fresh Fish</div>
+                <img src="./assets/products-fresh seafood.jpg" alt="Fresh Fish" class="product-card-img">
+            </div>
+        </div>
+    </div>
+    <h2 class="section-header">Snacks & Drinks</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="product-card">
+                    <div class="product-card-title">Sweet Bread & Mochi</div>
+                    <img src="./assets/products-sweet bread and mochi.jpg" alt="Mochi" class="product-card-img">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product-card">
+                    <div class="product-card-title">Japanese Snacks & Sweets</div>
+                    <img src="./assets/products-sweets and candies.jpg" alt="Snacks" class="product-card-img">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product-card">
+                    <div class="product-card-title">Ice Cream & Frozen Desserts</div>
+                    <img src="./assets/products-ice cream.jpg" alt="Ice Cream" class="product-card-img">
+                </div>
+            </div>
+        </div>
+
+        <h2 class="section-header">Home Decor & Gifts</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="product-card">
+                    <div class="product-card-title">Japanese Decor & Gifts</div>
+                    <img src="./assets/products-Japanese decor and gifts.jpg" alt="Decor" class="product-card-img">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product-card">
+                    <div class="product-card-title">Japanese Beauty Products</div>
+                    <img src="./assets/products-Japanese hair and beauty products.jpg" alt="Beauty Shelf" class="product-card-img">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product-card">
+                    <div class="product-card-title">Japanese Kitchenware</div>
+                    <img src="./assets/products-kithchenware.jpg" alt="Kitchenware" class="product-card-img">
+                </div>
+            </div>
+        </div>
+</section>
     <!-- About Us Section -->
-    <div class="container-fluid">
+<div class="container-fluid">
         <div class="row">
             <div class="col">
                 <h1 class="headerTitles d-flex justify-content-center titleText"><u>About Us</u></h1>
@@ -140,7 +257,7 @@
         </div>
     </div>
     <!-- Connect With Us Section -->
-    <div class="container-fluid">
+<div class="container-fluid">
         <div class="row">
             <h1 class="headerTitles d-flex justify-content-center my-lg-5 my-md-4 titleText my-3"><u>Connect With Us</u></h1>
             <div class="col-lg-4 col-md-12 d-flex justify-content-center connectWithUsCards">
@@ -205,7 +322,7 @@
         </div>
     </div>
     <!-- Footer Section -->
-    <div class="container-fluid">
+<div class="container-fluid">
         <div class="row footer">
             <div class="col d-flex align-items-center justify-content-start">
                 <p class="mt-3 copyrightText">Copyright &copy; 2023 Sakura Groceries </p>
@@ -217,7 +334,6 @@
             </div>
         </div>
     </div>
-
     <script src="./scripts/app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
