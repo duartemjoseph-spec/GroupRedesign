@@ -20,9 +20,11 @@
   font-style: normal;
 }
 .lily-script-one-regular {
-  font-family: "Lily Script One", system-ui;
+  font-family: "Lily Script One", cursive;
   font-weight: 400;
   font-style: normal;
+  color: #9667E0;
+  text-decoration: underline;
 }
 /* End of Fonts */
 .navbar {
