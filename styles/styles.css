@@ -1,0 +1,257 @@
+/* Start of Fonts */
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.lily-script-one-regular {
+  font-family: "Lily Script One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+/* End of Fonts */
+.headerTitles{
+    font-family: "Lily Script One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #9667E0;
+}
+.sakuraStoreFrontIMG{
+    border-radius: 30px;
+    height: 75%;
+    width: 100%;
+}
+.ourVisionBanner{
+    background-color: #ADA4D1;
+    color: white;
+}
+.ourCommitmentBanner{
+    background-color: #F2EBFB;
+}
+.cardBGColor{
+    background-color: #F2EBFB !important;
+}
+.footer{
+    color: #D4BBFC;
+    background-color: #240046;
+}
+.card{
+    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.502) !important;
+    border-radius: 20px !important;
+}
+.socialMediaCardTextColor{
+    color: #9667E0;
+}
+.connectWithUsCards{
+    margin-bottom: 60px;
+}
+.bannerTitle{
+    font-size: 35px;
+}
+.bannerText{
+    font-size: 20px;
+}
+.aboutUsSubtitle{
+    font-size: 28px;
+    margin-left: 150px !important;
+    margin-right: 150px !important;
+    text-align: center;
+}
+.iconCardCaptions{
+    font-size: 20px;
+}
+.titleText{
+    font-size: 48px;
+}
+.subtitles{
+    font-size: 36px;
+}
+.copyrightText{
+    font-size: 12px;
+}
+.mapPinIMG{
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.502) !important;
+}
+.aboutUsIMG{
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.502) !important;
+}
+.textAlignment{
+    text-align: center !important;
+}
+.ourStoryText{
+    font-size: 20px;
+}
+
+@media (max-width:768px){
+    .aboutUsSubtitle{
+        margin-left: 50px !important;
+        margin-right: 50px !important;
+        font-size: 20px;
+    }
+    .ourStoryText{
+        font-size: 12px;
+    }
+    .subtitles{
+        font-size: 32px;
+    }
+    .cardResponsiveResizing{
+        width: 13rem !important;
+    }
+    .cardFontResizing{
+        font-size: 10px;
+    }
+    .iconCardCaptions{
+        font-size: 18px;
+    }
+    .offerCardsIMG{
+        height: 75px !important;
+        width: 75px !important;
+    }
+    .bannerTitle{
+        font-size: 32px;
+    }
+    .bannerText{
+        font-size: 14px;
+    }
+    .contactUsCardResizing{
+        width: 38rem !important;
+    }
+    .visitUsCardResizing{
+        width: 95% !important;
+    }
+    .copyrightText{
+        font-size: 10px !important;
+    }
+}
+@media(max-width: 425px){
+    .aboutUsSubtitle{
+        font-size: 10px;
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+        margin-top: -8px;
+    }
+    .ourStoryText{
+        font-size: 6px;
+    }
+    .subtitles{
+        font-size: 24px;
+    }
+    .titleText{
+        font-size: 28px;
+    }
+    .offerCardsIMG{
+        height: 30px !important;
+        width: 30px !important;
+    }
+    .cardResponsiveResizing{
+        width: 125px !important;
+    }
+    .cardFontResizing{
+        font-size: 6px;
+        padding-left: 1px !important;
+        padding-right:0px !important;
+        margin-left: 1px !important;
+        margin-right: 1px !important;
+        margin-top: -10px !important;
+    }
+    .iconCardCaptions{
+        font-size: 10px;
+        margin-top: -15px;
+        margin-left: -10px !important;
+        margin-right: 0px !important;
+    }
+    .cardResizing{
+        padding-right: 5px !important;
+        padding-left: 13px !important;
+        margin-bottom: -10px;
+    }
+    .offerCardsSpacing{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .card{
+        box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.502) !important;
+        border-radius: 20px !important;
+    }
+    .offerCardsNoShadow{
+        box-shadow: none !important;
+    }
+    .bannerTitle{
+        font-size: 24px !important;
+        margin-top: 10px;
+    }
+    .bannerText{
+        margin-top: -5px;
+        font-size: 9px;
+    }
+    .connectWithUsCards{
+        width: 390px !important;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px !important;
+    }
+    .visitUsCardResizing{
+        width: 98% !important;
+    }
+    .visitUsCardResizing{
+        margin-left: 5px !important;
+        margin-right: 5px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        height: 260px !important;
+    }
+    .mapPinIMG{
+        margin-left: auto;
+        margin-right: auto;
+        height: 200px;
+        width: 385px !important;
+    }
+    .footerIcons{
+        width: 20px !important;
+        height: 20px !important;
+    }
+    .copyrightText{
+        font-size: 8px !important;
+    }
+}
+@media(max-width: 375px){
+    .mapPinIMG{
+        margin-left: auto;
+        margin-right: auto;
+        height: 200px;
+        width: 340px !important;
+    }
+}
+@media(max-width: 320px){
+    .mapPinIMG{
+        margin-left: auto;
+        margin-right: auto;
+        height: 200px;
+        width: 285px !important;
+    }
+    .copyrightText{
+        font-size: 6px !important;
+    }
+}
+@media (max-width: 1024px) {
+    .visitUsCardResizing{
+        width: 1000px !important;
+    }
+}
