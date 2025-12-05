@@ -144,6 +144,7 @@ body {
   font-weight: 400;
   font-style: normal;
   color: #9667e0;
+  font-size: 56px;
 }
 .sakuraStoreFrontIMG {
   border-radius: 30px;
@@ -170,12 +171,13 @@ body {
 }
 .socialMediaCardTextColor {
   color: #9667e0;
+  text-decoration: none;
 }
 .connectWithUsCards {
   margin-bottom: 60px;
 }
 .bannerTitle {
-  font-size: 35px;
+  font-size: 48px;
 }
 .bannerText {
   font-size: 20px;
@@ -190,10 +192,13 @@ body {
   font-size: 20px;
 }
 .titleText {
-  font-size: 48px;
+  font-size: 56px;
 }
 .subtitles {
-  font-size: 36px;
+  font-size: 56px;
+}
+.contactUsCardsTitleText{
+    font-size: 36px;
 }
 .copyrightText {
   font-size: 12px;
@@ -227,13 +232,18 @@ body {
     box-shadow: inset 0 0 5px #000000;
     border-radius: 10px;
 }
-
+.whatWeOfferTitle{
+    margin-top: -90px;
+}
 @media (max-width: 768px) {
   .aboutUsSubtitle {
     margin-left: 50px !important;
     margin-right: 50px !important;
     font-size: 20px;
   }
+  .whatWeOfferTitle{
+    margin-top: -10px;
+}
   .ourStoryText {
     font-size: 12px;
   }
