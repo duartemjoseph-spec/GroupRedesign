@@ -263,7 +263,11 @@ body {
 .whatWeOfferTitle {
     margin-top: -90px;
 }
-
+@media(max-width: 1440px){
+    .aboutUsIMG{
+        width: 580px !important;
+    }
+}
 @media(max-width: 1024px) {
     .whatWeOfferTitle {
         margin-top: 0px;
@@ -278,8 +282,15 @@ body {
         margin-right: 50px !important;
         font-size: 20px;
     }
+    .visitUsCardResizing {
+        width: 1000px !important;
+    }
+    .aboutUsIMG{
+        width: 435px !important;
+        height: 300px !important;
+        margin-top: 30px;
+    }
 }
-
 @media (max-width: 768px) {
     .aboutUsSubtitle {
         margin-left: 50px !important;
@@ -359,6 +370,10 @@ body {
     .product-card-img {
         height: 200px;
     }
+    .aboutUsIMG{
+        width: 330px !important;
+        height: 200px !important;
+    }
 }
 
 @media (max-width: 425px) {
@@ -368,7 +383,11 @@ body {
         margin-right: 10px !important;
         margin-top: -8px;
     }
-
+    .aboutUsIMG{
+        width: 185px !important;
+        height: 100px !important;
+        margin-top: 15px !important;
+    }
     .ourStoryText {
         font-size: 6px;
     }
@@ -506,10 +525,14 @@ body {
 
 @media (max-width: 375px) {
     .mapPinIMG {
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: auto !important;
+        margin-right: auto !important;
         height: 200px;
-        width: 340px !important;
+        width: 300px !important;
+    }
+    .aboutUsIMG{
+        width: 165px !important;
+        margin-top: 20px !important;
     }
 }
 
@@ -524,10 +547,13 @@ body {
     .copyrightText {
         font-size: 6px !important;
     }
-}
-
-@media (max-width: 1024px) {
-    .visitUsCardResizing {
-        width: 1000px !important;
+    .aboutUsIMG{
+        width: 135px !important;
+        margin-top: 20px !important;
+    }
+    .googleMapPinIMG{
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 265px !important;
     }
 }
