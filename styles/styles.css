@@ -74,6 +74,7 @@ body {
     max-width: 950px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 100px;
 }
 
 .special-img {
@@ -109,6 +110,8 @@ body {
 }
 .products-div{
     background-color: #f2ebfb;
+    padding-top: 1px;
+    padding-bottom: 1px !important;
 }
 
 .section-header {
@@ -147,7 +150,6 @@ body {
     height: 250px;
     object-fit: cover;
     border-radius: 10px;
-    border: 2px solid white;
 }
 
 .headerTitles {
@@ -524,7 +526,10 @@ body {
     }
 
     .aboutUsSection {
-        margin-top: -60px !important;
+        margin-top: 20px !important;
+    }
+    .googleMapPinIMG{
+        width: 95% !important;
     }
 }
 
