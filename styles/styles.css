@@ -212,6 +212,21 @@ body {
 .ourStoryText {
   font-size: 20px;
 }
+/* Changes scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #ACA3D4;
+    box-shadow: inset 0 0 5px #2F3E46;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #F2EBFB;
+    box-shadow: inset 0 0 5px #000000;
+    border-radius: 10px;
+}
 
 @media (max-width: 768px) {
   .aboutUsSubtitle {
